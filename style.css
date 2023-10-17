@@ -17,7 +17,7 @@ img {
 }
 
 .container {
-  max-width: 1146px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -272,4 +272,49 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (min-width: 770px) and (max-width: 1139.99px) {
+  .container {
+    max-width: 735px;
+  }
+  .banner__right__text p {
+    font-size: 44px;
+  }
+  #LUXERIOUS {
+    font-size: 24px;
+  }
+  #FASHION {
+    font-size: 24px;
+  }
+  .banner__wr__bimage {
+    background: url(./img/bsnner_man_tablet.png);
+    width: 386px;
+    height: 368px;
+  }
+  .card {
+    width: 232px;
+    height: 167px;
+  }
+  .card4 {
+    width: 100%;
+    height: 116px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .card__text {
+    padding-top: 59px;
+    padding-bottom: 59px;
+  }
+  .card__text4 {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+  .line2__card__list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 47.5px;
+  }
 }
